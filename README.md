@@ -1,6 +1,6 @@
 <div align="center">
 
-# Open Migration — 100% Free, No Limits WordPress Migration
+# Open WP Migration — Unlimited Site Transfer & Backup
 
 ### The only WordPress migration and backup plugin you'll never have to pay for.
 
