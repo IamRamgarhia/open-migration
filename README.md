@@ -23,25 +23,32 @@ Your site data never leaves your server. No cloud dependencies. No hidden limits
 
 ## 📸 Screenshots
 
-<div align="center">
-
-### Seamless Site Export
-![Export Site](assets/images/export.png)
-*Beautiful, modern dashboard — one-click exports with intelligent chunking.*
-
-### Limitless Site Import
-![Import Site](assets/images/import.png)
-*Bypass PHP upload limits completely with our limitless chunking architecture.*
-
-### Direct Site-to-Site Transfer
-![Site-to-Site Transfer](assets/images/site-to-site.png)
-*Generate a token and pull your site directly without ever downloading a ZIP file.*
-
-### Built-in Backup Management
-![Backup Management](assets/images/backups.png)
-*Easily manage, download, or delete past backups to free up server space.*
-
-</div>
+<table align="center">
+  <tr>
+    <td align="center">
+      <b>Seamless Site Export</b><br><br>
+      <img src="assets/images/export.png" width="450" alt="Export Site">
+      <br><i>One-click exports with intelligent chunking.</i>
+    </td>
+    <td align="center">
+      <b>Limitless Site Import</b><br><br>
+      <img src="assets/images/import.png" width="450" alt="Import Site">
+      <br><i>Bypass PHP upload limits completely.</i>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <br><b>Direct Site-to-Site Transfer</b><br><br>
+      <img src="assets/images/site-to-site.png" width="450" alt="Site-to-Site Transfer">
+      <br><i>Pull your site directly without a ZIP file.</i>
+    </td>
+    <td align="center">
+      <br><b>Built-in Backup Management</b><br><br>
+      <img src="assets/images/backups.png" width="450" alt="Backup Management">
+      <br><i>Manage, download, or delete past backups.</i>
+    </td>
+  </tr>
+</table>
 
 ---
 
