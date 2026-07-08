@@ -25,13 +25,23 @@ Your site data never leaves your server. No cloud dependencies. No hidden limits
 
 <div align="center">
 
-*(Placeholder: Upload your Dashboard screenshot here!)*
+### Seamless Site Export
+![Export Site](assets/images/export.png)
+*Beautiful, modern dashboard — one-click exports with intelligent chunking.*
 
-*Beautiful, modern dashboard — one-click exports, real-time zipping progress, and native backup management.*
+### Limitless Site Import
+![Import Site](assets/images/import.png)
+*Bypass PHP upload limits completely with our limitless chunking architecture.*
+
+### Direct Site-to-Site Transfer
+![Site-to-Site Transfer](assets/images/site-to-site.png)
+*Generate a token and pull your site directly without ever downloading a ZIP file.*
+
+### Built-in Backup Management
+![Backup Management](assets/images/backups.png)
+*Easily manage, download, or delete past backups to free up server space.*
 
 </div>
-
-> 📸 **Want more screenshots?** Check back soon as we upload images of the Backup Manager, Real-time Export Tracker, and Import Wizard!
 
 ---
 
