@@ -1,0 +1,191 @@
+/* Open WP Migration - Modern Admin UI */
+.owpm-wrap {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: #3c434a;
+}
+
+.owpm-header {
+    background: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    border-bottom: 1px solid #f0f0f1;
+}
+
+.owpm-header h1 {
+    color: #1d2327;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.owpm-header p {
+    color: #646970;
+    font-size: 16px;
+    margin: 0;
+}
+
+.owpm-tabs {
+    display: flex;
+    background: #ffffff;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.owpm-tab {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    color: #50575e;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.owpm-tab:hover {
+    color: #2271b1;
+    background: #f6f7f7;
+}
+
+.owpm-tab.active {
+    color: #2271b1;
+    border-bottom-color: #2271b1;
+    background: #f6f7f7;
+}
+
+.owpm-panels {
+    background: #ffffff;
+    border-radius: 0 0 12px 12px;
+    padding: 50px 40px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+
+.owpm-instructions-panel {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-left: 4px solid #2271b1;
+    transition: opacity 0.3s ease;
+}
+
+.owpm-panel {
+    display: none;
+    animation: fadeIn 0.4s ease;
+}
+
+.owpm-panel.active {
+    display: block;
+}
+
+.owpm-panel h2 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #1d2327;
+}
+
+.owpm-panel p {
+    font-size: 15px;
+    color: #646970;
+    line-height: 1.6;
+}
+
+/* Custom Buttons */
+.owpm-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.owpm-btn-primary,
+a.owpm-btn-primary {
+    background: #2271b1;
+    color: #fff !important;
+    box-shadow: 0 2px 5px rgba(34, 113, 177, 0.3);
+}
+
+.owpm-btn-primary:hover,
+a.owpm-btn-primary:hover {
+    background: #135e96;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(34, 113, 177, 0.4);
+}
+
+.owpm-btn-secondary {
+    background: #f0f0f1;
+    color: #2c3338;
+    border: 1px solid #8c8f94;
+}
+
+.owpm-btn-secondary:hover {
+    background: #dcdcde;
+}
+
+/* Progress bar */
+.owpm-progress-wrapper {
+    margin-top: 30px;
+    background: #f0f0f1;
+    border-radius: 20px;
+    height: 24px;
+    overflow: hidden;
+    display: none;
+}
+
+.owpm-progress-bar {
+    background: linear-gradient(90deg, #2271b1, #3b8deb);
+    height: 100%;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.owpm-status-text {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #1d2327;
+    display: none;
+}
+
+/* File Upload Area */
+.owpm-upload-area {
+    border: 3px dashed #c3c4c7;
+    border-radius: 12px;
+    padding: 60px 20px;
+    text-align: center;
+    background: #f9f9f9;
+    margin: 30px 0;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.owpm-upload-icon {
+    font-size: 48px;
+    color: #a7aaad;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.owpm-upload-area:hover {
+    border-color: #2271b1;
+    background: #f0f6fc;
+}
+
+.owpm-upload-area input[type="file"] {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
