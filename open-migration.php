@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Open Migration
+ * Plugin Name: Open WP Migration – Unlimited Site Transfer & Backup
  * Plugin URI:  https://wordpress.org/plugins/open-migration/
- * Description: A 100% free, limitless site migration and backup plugin. Export, import, and do direct site-to-site transfers without file size limits.
+ * Description: Migrate, backup, and restore your WordPress website for free. Bypasses upload limits for massive websites.
  * Version:     1.1.4
  * Author:      Open Migration Team
  * Author URI:  https://wordpress.org/plugins/open-migration/

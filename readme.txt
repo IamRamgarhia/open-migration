@@ -1,4 +1,4 @@
-=== Open Migration ===
+=== Open WP Migration – Unlimited Site Transfer & Backup ===
 Contributors: openmigration
 Tags: migration, backup, clone, transfer, migrate
 Requires at least: 6.2
@@ -8,7 +8,7 @@ Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-A 100% free, limitless site migration and backup plugin. Export, import, and do direct site-to-site transfers without file size limits.
+Migrate, backup, and restore your WordPress website for free. Bypasses upload limits for massive websites.
 
 == Description ==
 
